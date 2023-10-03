@@ -1,0 +1,64 @@
+*{margin: 0px; padding: 0px;}
+.navbar{
+    margin: 5px; padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+    position: fixed;
+    background-color: aliceblue;
+}
+#links{
+    display: inline-block;
+}
+#links a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    color: black;
+    opacity: .55;
+    transition: .4s;
+    text-align: right;
+}
+#links a{
+    opacity: 1; 
+    transition: .4s;
+}
+.banner{
+    background-image: url(Flag2.webp);
+    height: 250px;
+    position: relative;
+    text-align: center;
+}
+.banner a{
+    position: absolute;
+    padding: 3px;
+    background-color: aliceblue;
+    right: 50%;
+    bottom: 50px;
+}
+.content{
+    float: grr;
+        margin: 5px;
+        border-radius: 10px;
+        padding: 15px;
+        border: 1px solid black;
+        text-align: center;
+        position: absolute;
+        background-color: whitesmoke;
+        width: 50%;
+        left: 50vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 15px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    grid-template-areas: 
+        "leftside rightside";
+
+}
